@@ -14,7 +14,7 @@ a{
 }
 .main-container{
   width: 1100px;
-  height: 570px;
+  height: 600px;
   background-color: black;
   margin-left: 15%;
   margin-top: 100px;
@@ -34,5 +34,166 @@ a{
 body {
   margin: 0;
   background-image: url("../images/jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
-  
+  background-repeat: no-repeat; 
 }
+.main-item1{
+  position: absolute;
+width: 442px;
+height: 74px;
+left: 570px;
+top: 230px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 78px;
+
+
+text-align: center;
+letter-spacing: 0.3em;
+
+color: #FD7D54;
+}
+.main-item2{
+  position: absolute;
+width: 635px;
+height: 42px;
+left: 462px;
+top: 315px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.child-container1{
+  position: absolute;
+  left: 21%;
+  right: 0%;
+  top: 54%;
+  bottom: 0%;
+
+  width: 210px;
+  height: 310px;
+  border: 4px solid #FFFFFF;  
+}
+.child-container2{
+  position: absolute;
+  left: 45%;
+  right: 0%;
+  top: 54%;
+  bottom: 0%;
+
+  width: 210px;
+  height: 310px;
+  border: 4px solid #FFFFFF; 
+}
+.child-container3{
+  position: absolute; 
+  left: 69%;
+  right: 0%;
+  top: 54%;
+  bottom: 0%;
+
+  width: 210px;
+  height: 310px;
+  border: 4px solid #FFFFFF; 
+}
+.circle1,.circle2,.circle3{
+  width: 85px;
+  height: 85px;
+  background-color: #C90A47;
+  border-radius: 50%;
+  box-shadow: inset 6px -3px 4px #8E0833, inset -3px 3px 7px 1px rgba(255, 255, 255, 0.35);
+  
+  position: absolute;
+  left: 29.33%;
+  right: 28.33%;
+  top: 9.45%;
+  bottom: 60.68%;  
+}
+.child-paragraph1{
+  position: absolute;
+  left: 28.33%;
+  right: 0%;
+  top: 0.45%;
+  bottom: 10%;    
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.12em;
+  font-variant: all-small-caps;
+  
+  color: #FFFFFF;
+}
+.child-paragraph2{
+  position: absolute;
+  left: 46.33%;
+  right: 0%;
+  top: 0.45%;
+  bottom: 6%;    
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.12em;
+  font-variant: all-small-caps;
+  
+  color: #FFFFFF;
+}
+.child-paragraph3{
+  position: absolute;
+  left: 13.33%;
+  right: 0%;
+  top: 0.45%;
+  bottom: 10%;    
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.12em;
+  font-variant: all-small-caps;
+  
+  color: #FFFFFF;
+}
+.child-paragraph4{
+  position: absolute;
+  left: 11.26%;
+  right: 11.26%;
+  top: 56.23%;
+  bottom: 22.73%;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  color: #FFFFFF;
+}
+
